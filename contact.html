@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Career — PT Prima Agro Tech</title>
-<meta name="description" content="Come grow a better future with PAT — meet our field agents and explore current career opportunities.">
+<title>Contact — PT Prima Agro Tech</title>
+<meta name="description" content="Get in touch with Prima Agro Tech — microbial bio-solution company for agriculture, plantation and aquaculture across Indonesia and Southeast Asia.">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="career">
+<body data-page="contact">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
@@ -26,7 +26,7 @@
             <a href="solutions.html?type=nutrition"><span lang="en">Nutrition</span><span lang="id">Nutrisi</span></a>
           </div>
         </li>
-        <li class="has-dropdown"><a href="about.html" class="active"><span lang="en">About Us</span><span lang="id">Tentang Kami</span></a>
+        <li class="has-dropdown"><a href="about.html"><span lang="en">About Us</span><span lang="id">Tentang Kami</span></a>
           <div class="dropdown">
             <a href="about.html"><span lang="en">About Us</span><span lang="id">Tentang Kami</span></a>
             <a href="our-sciences.html"><span lang="en">Our Sciences</span><span lang="id">Riset Kami</span></a>
@@ -36,7 +36,7 @@
             <a href="career.html"><span lang="en">Career</span><span lang="id">Karier</span></a>
           </div>
         </li>
-        <li><a href="contact.html"><span lang="en">Contact</span><span lang="id">Kontak</span></a></li>
+        <li><a href="contact.html" class="active"><span lang="en">Contact</span><span lang="id">Kontak</span></a></li>
       </ul>
     </nav>
     <div class="nav-cta">
@@ -54,59 +54,66 @@
 
   <section class="page-hero">
     <div class="container">
-      <span class="breadcrumb"><a href="index.html">Home</a> / <a href="about.html"><span lang="en">About Us</span><span lang="id">Tentang Kami</span></a> / <span lang="en">Career</span><span lang="id">Karier</span></span>
-      <span class="eyebrow"><span lang="en">Come grow a better future</span><span lang="id">Mari tumbuhkan masa depan yang lebih baik</span></span>
-      <h1><span lang="en">Field credibility starts with our field agents</span><span lang="id">Kredibilitas lapangan dimulai dari agen lapangan kami</span></h1>
-      <p class="lede"><span lang="en">Our people are the key to unlocking a brighter future for all — talented, dedicated team members driving our mission forward, one field visit at a time.</span><span lang="id">Orang-orang kami adalah kunci untuk membuka masa depan yang lebih cerah bagi semua — tim yang berbakat dan berdedikasi mendorong misi kami, satu kunjungan lapangan pada satu waktu.</span></p>
+      <span class="breadcrumb"><a href="index.html">Home</a> / <span lang="en">Contact</span><span lang="id">Kontak</span></span>
+      <span class="eyebrow"><span lang="en">Get in touch</span><span lang="id">Hubungi Kami</span></span>
+      <h1><span lang="en">Talk to Prima Agro Tech</span><span lang="id">Bicara dengan Prima Agro Tech</span></h1>
+      <p class="lede"><span lang="en">Product sales, partnership opportunities, investor relations, media enquiries or careers — one form, straight to our team.</span><span lang="id">Penjualan produk, peluang kemitraan, hubungan investor, permintaan media, atau karier — satu formulir, langsung ke tim kami.</span></p>
     </div>
   </section>
 
   <section class="section">
     <div class="container two-col">
       <div data-reveal>
-        <span class="eyebrow"><span lang="en">Field agent work</span><span lang="id">Pekerjaan Agen Lapangan</span></span>
-        <h2><span lang="en">What our field agents do, day to day</span><span lang="id">Apa yang dilakukan agen lapangan kami setiap hari</span></h2>
-        <p class="text-muted"><span lang="en">Our field agents run demo plots, train farmers on correct application, and troubleshoot problems on the ground through our Corporate Farmer Relations (CFR) and Corporate Plantation Relations (CPR) programmes — the direct bridge between our laboratory and the field.</span><span lang="id">Agen lapangan kami menjalankan demo plot, melatih petani dalam aplikasi yang benar, dan memecahkan masalah langsung di lapangan melalui program Corporate Farmer Relations (CFR) dan Corporate Plantation Relations (CPR) — jembatan langsung antara laboratorium dan lahan kami.</span></p>
+        <form id="contactForm">
+          <div class="form-field">
+            <label><span lang="en">Name</span><span lang="id">Nama</span></label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="form-field">
+            <label><span lang="en">Email</span><span lang="id">Email</span></label>
+            <input type="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label><span lang="en">Subject</span><span lang="id">Subjek</span></label>
+            <select name="subject">
+              <option><span lang="en">Product Sales</span></option>
+              <option>Product Sales</option>
+              <option>Partnership Opportunities</option>
+              <option>Investor Relations</option>
+              <option>Media Enquiry</option>
+              <option>Career</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label><span lang="en">Message</span><span lang="id">Pesan</span></label>
+            <textarea name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit"><span lang="en">Send message</span><span lang="id">Kirim pesan</span></button>
+          <p id="formStatus" style="display:none;margin-top:14px;color:var(--leaf);font-weight:600;"></p>
+        </form>
+        <p class="text-muted" style="margin-top:18px;font-size:.82rem;"><span lang="en">Note for developer: this form currently opens a pre-filled email. Wire it to Formspree, EmailJS or your CRM before launch.</span><span lang="id">Catatan untuk pengembang: formulir ini saat ini membuka email yang telah terisi. Hubungkan ke Formspree, EmailJS, atau CRM Anda sebelum peluncuran.</span></p>
       </div>
-      <div data-reveal data-reveal-delay="1"><div class="photo photo-wide"><span class="photo-cap"><span lang="en">Field agent training session</span><span lang="id">Sesi pelatihan agen lapangan</span></span></div></div>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="container">
-      <div data-reveal>
-        <span class="eyebrow"><span lang="en">Field proof</span><span lang="id">Bukti Lapangan</span></span>
-        <h2><span lang="en">Real people, real fields, real impact</span><span lang="id">Orang sungguhan, lahan sungguhan, dampak sungguhan</span></h2>
-      </div>
-      <div class="photo-grid" style="margin-top:28px;" data-reveal data-reveal-delay="1">
-        <div class="photo photo-square"><span class="photo-cap"><span lang="en">Field visit</span><span lang="id">Kunjungan lapangan</span></span></div>
-        <div class="photo photo-square"><span class="photo-cap"><span lang="en">Farmer training</span><span lang="id">Pelatihan petani</span></span></div>
-        <div class="photo photo-square"><span class="photo-cap"><span lang="en">Demo plot</span><span lang="id">Demo plot</span></span></div>
-        <div class="photo photo-square"><span class="photo-cap"><span lang="en">Team on site</span><span lang="id">Tim di lapangan</span></span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div data-reveal>
-        <span class="eyebrow"><span lang="en">Open roles</span><span lang="id">Posisi Terbuka</span></span>
-        <h2><span lang="en">Explore our career opportunities</span><span lang="id">Jelajahi peluang karier kami</span></h2>
-      </div>
-      <div class="table-wrap" data-reveal data-reveal-delay="1">
-        <table class="data-table">
-          <thead><tr><th><span lang="en">Position</span><span lang="id">Posisi</span></th><th><span lang="en">Team</span><span lang="id">Tim</span></th><th><span lang="en">Location</span><span lang="id">Lokasi</span></th></tr></thead>
-          <tbody><tr><td colspan="3" class="text-muted"><span lang="en">Currently no positions available — check back soon, or follow us on LinkedIn for updates.</span><span lang="id">Saat ini belum ada posisi tersedia — kunjungi kembali segera, atau ikuti kami di LinkedIn untuk info terbaru.</span></td></tr></tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-forest">
-    <div class="container center mw-680" data-reveal>
-      <h2><span lang="en">Follow our journey on LinkedIn</span><span lang="id">Ikuti perjalanan kami di LinkedIn</span></h2>
-      <div class="hero-actions" style="justify-content:center;margin-top:20px;">
-        <a class="btn btn-primary" href="https://id.linkedin.com/company/primaagrotech" target="_blank" rel="noopener"><span lang="en">Follow us on LinkedIn</span><span lang="id">Ikuti kami di LinkedIn</span></a>
+      <div data-reveal data-reveal-delay="1">
+        <div class="card accent-green" style="margin-bottom:24px;">
+          <h3><span lang="en">Head Office</span><span lang="id">Kantor Pusat</span></h3>
+          <p class="text-muted">
+            PT. PRIMA AGRO TECH<br>
+            Komplek Ruko Pluit Junction SH 03<br>
+            Jl. Pluit Raya No. 1, RT.21/RW.8<br>
+            Penjaringan, Jakarta Utara 14440<br>
+            Indonesia
+          </p>
+          <p class="text-muted"><strong><span lang="en">Email</span><span lang="id">Email</span>:</strong> <a href="mailto:info@primaagrotech.com">info@primaagrotech.com</a></p>
+          <p class="text-muted"><strong><span lang="en">Phone</span><span lang="id">Telepon</span>:</strong> +62 21 6660 7368</p>
+          <p class="text-muted"><strong>Fax:</strong> +62 21 6660 7369</p>
+        </div>
+        <div class="photo photo-wide"><span class="photo-cap"><span lang="en">Map placeholder — embed Google Maps before launch</span><span lang="id">Placeholder peta — sematkan Google Maps sebelum peluncuran</span></span></div>
+        <div class="social-row" style="margin-top:24px;">
+          <a href="https://www.instagram.com/primaagrotech/" aria-label="Instagram" target="_blank" rel="noopener" style="background:var(--off-white);color:var(--forest);">IG</a>
+          <a href="https://id.linkedin.com/company/primaagrotech" aria-label="LinkedIn" target="_blank" rel="noopener" style="background:var(--off-white);color:var(--forest);">in</a>
+          <a href="https://www.youtube.com/channel/UCX_tuMRgpp214nskFwj7_jg" aria-label="YouTube" target="_blank" rel="noopener" style="background:var(--off-white);color:var(--forest);">YT</a>
+          <a href="#" aria-label="TikTok" target="_blank" rel="noopener" style="background:var(--off-white);color:var(--forest);">TT</a>
+        </div>
       </div>
     </div>
   </section>
